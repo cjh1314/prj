@@ -1,0 +1,76 @@
+[INFO ] 16:00:11.502 com.board.SpringbootTestApplication - Starting SpringbootTestApplication using Java 16.0.1 on DESKTOP-HETBLII with PID 5548 (C:\develop\workspace\springbootTest\bin\main started by cjh in C:\develop\workspace\springbootTest)
+[INFO ] 16:00:11.503 com.board.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16:00:11.754 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:00:11.754 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:00:11.755 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[INFO ] 16:00:11.777 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:00:11.777 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 272 ms
+[INFO ] 16:00:11.793 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+[INFO ] 16:00:11.797 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+[INFO ] 16:00:11.893 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 16:00:11.961 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 16:00:11.962 s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 16:00:11.962 s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 16:00:11.964 s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 16:00:11.996 com.board.SpringbootTestApplication - Started SpringbootTestApplication in 0.526 seconds (JVM running for 1407.434)
+[INFO ] 16:00:11.997 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 16:00:40.193 com.board.SpringbootTestApplication - Starting SpringbootTestApplication using Java 16.0.1 on DESKTOP-HETBLII with PID 16012 (C:\develop\workspace\springbootTest\bin\main started by cjh in C:\develop\workspace\springbootTest)
+[INFO ] 16:00:40.195 com.board.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16:00:40.229 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 16:00:40.229 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 16:00:41.226 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:00:41.235 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:00:41.235 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:00:41.235 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[INFO ] 16:00:41.306 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:00:41.306 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1076 ms
+[INFO ] 16:00:41.380 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:00:41.508 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[WARN ] 16:00:41.964 o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 16:00:42.153 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 16:00:42.156 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO ] 16:00:42.159 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:00:42.165 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:00:42.167 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:00:42.167 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 16:00:42.171 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:00:42.171 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR] 16:00:42.216 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 16:00:53.305 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 16:00:53.329 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+[INFO ] 16:00:53.331 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+[INFO ] 16:01:36.758 com.board.SpringbootTestApplication - Starting SpringbootTestApplication using Java 16.0.1 on DESKTOP-HETBLII with PID 10236 (C:\develop\workspace\springbootTest\bin\main started by cjh in C:\develop\workspace\springbootTest)
+[INFO ] 16:01:36.760 com.board.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16:01:36.796 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 16:01:36.797 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 16:01:37.815 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:01:37.828 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:01:37.828 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:01:37.829 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[INFO ] 16:01:37.893 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:01:37.893 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1096 ms
+[INFO ] 16:01:37.967 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:01:38.096 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:01:38.550 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 16:01:38.740 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:01:38.778 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 16:01:38.779 s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 16:01:38.791 s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 16:01:38.798 s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 16:01:38.896 com.board.SpringbootTestApplication - Started SpringbootTestApplication in 2.474 seconds (JVM running for 3.156)
+[INFO ] 16:01:49.570 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 16:01:49.570 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 16:01:49.571 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

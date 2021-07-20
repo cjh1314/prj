@@ -1,0 +1,36 @@
+[INFO ] 15:58:58.108 com.board.SpringbootTestApplication - Starting SpringbootTestApplication using Java 16.0.1 on DESKTOP-HETBLII with PID 5548 (C:\develop\workspace\springbootTest\bin\main started by cjh in C:\develop\workspace\springbootTest)
+[INFO ] 15:58:58.108 com.board.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 15:58:58.362 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:58:58.362 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:58:58.362 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[INFO ] 15:58:58.375 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:58:58.375 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 265 ms
+[INFO ] 15:58:58.392 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+[INFO ] 15:58:58.396 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+[INFO ] 15:58:58.489 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 15:58:58.556 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:58:58.557 s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 15:58:58.557 s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 15:58:58.559 s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 15:58:58.590 com.board.SpringbootTestApplication - Started SpringbootTestApplication in 0.517 seconds (JVM running for 1334.028)
+[INFO ] 15:58:58.591 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 15:59:49.079 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+[INFO ] 15:59:49.080 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+[INFO ] 15:59:49.149 com.board.SpringbootTestApplication - Starting SpringbootTestApplication using Java 16.0.1 on DESKTOP-HETBLII with PID 5548 (C:\develop\workspace\springbootTest\bin\main started by cjh in C:\develop\workspace\springbootTest)
+[INFO ] 15:59:49.149 com.board.SpringbootTestApplication - No active profile set, falling back to default profiles: default
+[INFO ] 15:59:49.403 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:59:49.404 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:59:49.404 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[INFO ] 15:59:49.419 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:59:49.419 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 268 ms
+[INFO ] 15:59:49.436 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+[INFO ] 15:59:49.440 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+[INFO ] 15:59:49.531 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 15:59:49.596 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:59:49.597 s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 15:59:49.597 s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 15:59:49.599 s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 15:59:49.630 com.board.SpringbootTestApplication - Started SpringbootTestApplication in 0.507 seconds (JVM running for 1385.069)
+[INFO ] 15:59:49.632 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 16:00:11.426 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+[INFO ] 16:00:11.427 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
